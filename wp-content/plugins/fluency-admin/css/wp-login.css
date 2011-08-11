@@ -1,0 +1,67 @@
+html {
+	background: #262626 !important;
+}
+h1 a {
+	width: 100%;
+	background-image: url("../img/logo-login.png");
+}
+#login_error, .message {
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	border-top: 0 none;
+	margin-left: 0;
+	position: absolute;
+	top: 0;
+	width: 294px;
+}
+form {
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	margin-left: 0;
+	-moz-box-shadow: 0 2px 10px 0 #111;
+	-webkit-box-shadow: 0 2px 10px 0 #111;
+	box-shadow: 0 2px 10px 0 #111;
+	background: -moz-linear-gradient(top,#FFF,#DDD);
+	background: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#DDD));
+	border-color: #FFF;
+}
+body form label {
+	text-shadow:0 1px 0 #FFF;
+}
+body form .input {
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border-color:#CCC;
+}
+body form .input:hover {
+	border-color: #9BF;
+}
+body form .input:focus {
+	border-color: #06C;
+	-moz-box-shadow: 0 0 6px rgba(0,100,200,0.25);
+	-webkit-box-shadow: 0 0 6px rgba(0,100,200,0.25);
+	box-shadow: 0 0 6px rgba(0,100,200,0.25);
+}
+#nav, #backtoblog {
+	margin: 0;
+	text-shadow: none;
+	text-align: center;
+	font-weight: bold;
+}
+.login #nav a, .login #backtoblog a {
+	color: #464646 !important;
+}
+#login:hover #nav a, #login:hover #backtoblog a {
+	color: #999 !important;
+}
+.login #nav a:hover, .login #backtoblog a:hover {
+	color: #FFF !important;
+}
+.button-primary {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}

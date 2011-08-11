@@ -1,0 +1,265 @@
+# Copyright (C) 2010 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version:  \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/fluency-admin\n"
+"POT-Creation-Date: 2011-07-17 07:04:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wp-fluency-admin.php:331
+msgid "WP Admin"
+msgstr ""
+
+#: wp-fluency-admin.php:414
+msgid "Unhide Menu"
+msgstr ""
+
+#: wp-fluency-admin.php:416
+msgid "Hide Menu"
+msgstr ""
+
+#: wp-fluency-admin.php:448
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: wp-fluency-admin.php:468
+msgid ""
+"<strong>Admin menu was not hidden</strong><br/>Make sure you've still go the "
+"Admin Bar enabled and have selected one of the Admin Bar drop down options "
+"(otherwise you won't have any admin menu at all... and that won't be good)"
+msgstr ""
+
+#: wp-fluency-admin.php:484
+msgid "Options saved."
+msgstr ""
+
+#: wp-fluency-admin.php:491
+msgid "Fluency Admin Options"
+msgstr ""
+
+#: wp-fluency-admin.php:493
+msgid "Login/Register Screen Customizations"
+msgstr ""
+
+#: wp-fluency-admin.php:497
+msgid "Fluency Login Style"
+msgstr ""
+
+#: wp-fluency-admin.php:498
+msgid "Style the WordPress login to match the rest of the Fluency Admin theme."
+msgstr ""
+
+#: wp-fluency-admin.php:501
+msgid "Login screen custom logo"
+msgstr ""
+
+#: wp-fluency-admin.php:504
+msgid ""
+"Specify the full URL for your chosen image, for best results use an image "
+"that is a maximum of <strong>320px wide</strong>, and <strong>65px high</"
+"strong> and has a transparent background."
+msgstr ""
+
+#: wp-fluency-admin.php:508
+msgid "Login screen custom link"
+msgstr ""
+
+#: wp-fluency-admin.php:511
+msgid "Specify the URL that your custom logo will link through to."
+msgstr ""
+
+#: wp-fluency-admin.php:516
+msgid "Logo Customizations"
+msgstr ""
+
+#: wp-fluency-admin.php:520
+msgid "Custom logo (top of menu)"
+msgstr ""
+
+#: wp-fluency-admin.php:524
+msgid ""
+"Specify the full URL for your chosen image, for best results use an image "
+"that is <strong>%spx wide</strong>, and <strong>50px high</strong>."
+msgstr ""
+
+#: wp-fluency-admin.php:528
+msgid "Custom logo (for collapsed menu)"
+msgstr ""
+
+#: wp-fluency-admin.php:531
+msgid ""
+"Specify the full URL for your chosen image, for best results use an image "
+"that is <strong>32px wide</strong>, and <strong>50px high</strong>."
+msgstr ""
+
+#: wp-fluency-admin.php:536
+msgid "Menu Customizations"
+msgstr ""
+
+#: wp-fluency-admin.php:540
+msgid "Custom menu width"
+msgstr ""
+
+#: wp-fluency-admin.php:543
+msgid ""
+"If you find that some menu items are wrapping across multiple lines you can "
+"increase the width of the menu.<br/>Default is 145px. <strong>Leave empty to "
+"reset.</strong>"
+msgstr ""
+
+#: wp-fluency-admin.php:547
+msgid "Fixed position menu"
+msgstr ""
+
+#: wp-fluency-admin.php:548
+msgid ""
+"uncheck if you have lots of plugins that add menu items, or a small screen."
+msgstr ""
+
+#: wp-fluency-admin.php:551
+msgid "Menu item icons"
+msgstr ""
+
+#: wp-fluency-admin.php:552
+msgid "uncheck to hide icons from expanded menu."
+msgstr ""
+
+#: wp-fluency-admin.php:555
+msgid "Hover menus"
+msgstr ""
+
+#: wp-fluency-admin.php:556
+msgid ""
+"uncheck to switch back to the click-to-open style menus while retaining the "
+"Fluency look."
+msgstr ""
+
+#: wp-fluency-admin.php:556
+msgid "(Currently a little buggy)"
+msgstr ""
+
+#: wp-fluency-admin.php:559
+msgid "Menu Hot Keys"
+msgstr ""
+
+#: wp-fluency-admin.php:560
+msgid ""
+"uncheck if you encounter a conflict with another plugin, or if you just need "
+"them."
+msgstr ""
+
+#: wp-fluency-admin.php:564
+msgid "WP Admin Bar Configurations"
+msgstr ""
+
+#: wp-fluency-admin.php:565
+msgid ""
+"The WP Admin Bar can be enabled/disabled (for when viewing your blog and/or "
+"accessing the admin area) via your "
+msgstr ""
+
+#: wp-fluency-admin.php:565 wp-fluency-admin.php:592
+msgid "profile page"
+msgstr ""
+
+#: wp-fluency-admin.php:570
+msgid "Admin bar drop-down menus"
+msgstr ""
+
+#: wp-fluency-admin.php:572
+msgid "Disable the Admin drop-down menus in the WP Admin Bar (Default)."
+msgstr ""
+
+#: wp-fluency-admin.php:573
+msgid "Enable single drop-down menu with access to all wp-admin areas."
+msgstr ""
+
+#: wp-fluency-admin.php:574
+msgid "Enable multiple drop-down menus, one for each main wp-admin area."
+msgstr ""
+
+#: wp-fluency-admin.php:575
+msgid ""
+"Drop-down menus won't be visible if you've disabled the WP Admin Bar "
+"completely."
+msgstr ""
+
+#: wp-fluency-admin.php:580
+msgid "Hide Admin Menu"
+msgstr ""
+
+#: wp-fluency-admin.php:582
+msgid "Show the admin menu. (Default)"
+msgstr ""
+
+#: wp-fluency-admin.php:583
+msgid "Hide the admin menu."
+msgstr ""
+
+#: wp-fluency-admin.php:584
+msgid ""
+"This will hide the 'standard' admin menu (the one on the left), can only be "
+"used if you've enabled one of the Admin Bar drop down options and have not "
+"disabled the Admin Bar completely."
+msgstr ""
+
+#: wp-fluency-admin.php:592
+msgid ""
+"When you have the WP Admin Bar plus one of the above drop-down menu options "
+"enabled you can choose to hide the 'standard' admin menu on the left."
+msgstr ""
+
+#: wp-fluency-admin.php:592
+msgid "You can turn the Admin Bar on/off on your "
+msgstr ""
+
+#: wp-fluency-admin.php:598
+msgid "Color Customizations"
+msgstr ""
+
+#: wp-fluency-admin.php:602
+msgid "Menu Background Color"
+msgstr ""
+
+#: wp-fluency-admin.php:604
+msgid "Select a Color"
+msgstr ""
+
+#: wp-fluency-admin.php:604
+msgid "Reset"
+msgstr ""
+
+#: wp-fluency-admin.php:605
+msgid ""
+"Pick a color to use as the background color for the admin menu. "
+"<strong>Darkish colours work best.</strong><br/><strong>If you can't read "
+"the 'Example' text above then the color you've picked is probably too light."
+"</strong><br/>The rest of the admin area will use the 'grey' color scheme "
+"when a custom menu color is selected, regardless of a user's profile setting."
+msgstr ""
+
+#: wp-fluency-admin.php:612
+msgid "Save Changes"
+msgstr ""
+
+#: wp-fluency-admin.php:624
+msgid "Fluency Admin"
+msgstr ""
+
+#: wp-fluency-admin.php:649
+msgid "Akismet Stats"
+msgstr ""
+
+#: wp-fluency-admin.php:657
+msgid "is a plugin by"
+msgstr ""
+
+#: wp-fluency-admin.php:657
+msgid "Donations welcome"
+msgstr ""

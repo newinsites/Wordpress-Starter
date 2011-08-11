@@ -1,0 +1,132 @@
+/*  -------
+	WIDGET TABLE - For widget title field
+	------- */
+table.nivo-slider-widget-table {
+	margin:0 0 10px 0; 
+	}
+table.nivo-slider-widget-table th{
+	text-align:right;
+	font-weight:normal;
+	padding-right:5px;
+	} 	
+table.nivo-slider-widget-table td{
+	} 	
+	
+/*  -------
+	FIELDSETS - IMAGE SELECTION AND SLIDER SETTINGS 
+	------- */
+
+fieldset.nivo-slider-fieldset {
+	border:1px solid #DFDFDF; 
+	-moz-border-radius: 6px 6px 6px 6px; 
+	margin:20px; 
+	padding:5px 10px;
+	}
+
+.widget fieldset.nivo-slider-fieldset {
+	margin:0 0 20px 0;
+	}
+.tab fieldset.nivo-slider-fieldset {	
+	width:auto;
+	}
+
+fieldset.nivo-slider-fieldset legend {
+	font-weight:bold;
+	}	
+	
+fieldset.nivo-slider-fieldset select {
+	width:100%;	
+	height:auto !important;
+	min-height: 1em;
+	}
+fieldset.nivo-slider-fieldset select option {
+	padding-top:2px;
+	padding-bottom:2px;
+	}
+fieldset.nivo-slider-fieldset table {
+	width:100%;	
+	}
+fieldset.nivo-slider-fieldset th {
+	text-align:right;
+	font-weight:normal;
+	padding-right:5px;
+	width:40%;
+	}
+fieldset.nivo-slider-fieldset td {
+	width:60%;
+	}
+
+fieldset.nivo-slider-fieldset option.all_terms {
+	color: #464646;
+	}
+	
+/*  -------
+	SETTINGS PANEL
+	------- */
+#nivo_settings_content .tab .easy-nivo-slider {		
+	border:3px #ccc solid;
+	}
+#nivo_settings_content .tab fieldset.nivo-slider-fieldset {
+	width: auto;
+	}
+
+#nivo_settings_content .tab fieldset.nivo-slider-fieldset table {
+	width: auto;
+	}
+
+.form-table	th { 
+	text-align:right;
+	}
+.easy-nivo-slider-icon {
+	background: url(../images/menu-icon.png) no-repeat scroll 0 8px transparent;
+    display: inline-block;
+    height: 20px;
+    width:
+	20px;
+	}
+	
+#nivo_settings_tab {
+	margin: 20px 0px 0 0px;
+	padding: 0px;
+	z-index: 1;
+	padding-left: 10px 
+	}
+#nivo_settings_tab li {
+	display: inline;
+	overflow: hidden;
+	list-style-type: none; 
+	}
+#nivo_settings_tab a, #nivo_settings_tab a:active, #nivo_settings_tab a:visited {
+	color: ##21759B;
+	background: #f1f1f1;
+	font: bold 1em "Trebuchet MS", Arial, sans-serif;
+	border: 2px solid #e3e3e3;
+	padding: 5px 10px 0 10px;
+	margin: 0 5px 0 0 ;
+	text-decoration: none; 
+	-webkit-border-top-left-radius: 8px;
+	-webkit-border-top-right-radius: 8px;
+	-moz-border-radius-topleft: 8px;
+	-moz-border-radius-topright: 8px;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	}
+
+#nivo_settings_tab .current a {
+	color:#000;
+	background: #FFFFFF;
+	border-bottom: 2px solid #F9F9F9; 
+	}
+
+#nivo_settings_tab a:hover {
+	background: #DADADA;
+	color:#464646;
+	 }
+		 
+#nivo_settings_content .tab {		
+	display:none;
+	}
+		
+#nivo_settings_content .current {
+	display: block;
+	}

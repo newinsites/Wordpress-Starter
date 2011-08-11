@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*============================*/
+/*=== Custom Slider Styles ===*/
+/*============================*/
+.easy_nivo_slider {
+	position:relative;
+	display:block;
+	background:url(../images/loading.gif) no-repeat 50% 50%; 
+	overflow:hidden;
+}
+.easy_nivo_slider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.easy_nivo_slider a {
+	border:none;
+	display:block;
+}
+.easy-nivo-slider-first, .easy-nivo-slider-second {
+	margin-bottom:20px;
+	}
+/* 	----------------------
+	BUTTON / NUMBER NAVIGATION 
+	---------------------- */
+.easy-nivo-slider-controls-buttons .nivo-controlNav,
+.easy-nivo-slider-controls-numbers .nivo-controlNav {
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+.easy-nivo-slider-controls-buttons .nivo-controlNav a,
+.easy-nivo-slider-controls-numbers .nivo-controlNav a {
+	display:block;
+	height:22px;
+	line-height:22px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+/* 	----------------------
+	BUTTON NAVIGATION 
+	---------------------- */
+.easy-nivo-slider-controls-buttons .nivo-controlNav a {
+	background:url(../images/bullets.png) no-repeat;
+	text-indent:-9999px;
+	width:22px;
+	margin:0 3px 8px 0;
+}
+.easy-nivo-slider-controls-buttons .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+/* 	----------------------
+	NUMBER NAVIGATION 
+	---------------------- */
+.easy-nivo-slider-controls-numbers .nivo-controlNav a {
+	color:#bbb;
+	padding:4px 8px 4px 6px;
+	line-height:22px;
+	text-shadow: 0 0 5px #000;
+	font-weight:bold;
+	margin-bottom:1px;
+}
+.easy-nivo-slider-controls-numbers .nivo-controlNav a:hover {
+	color:#FF5;
+}
+.easy-nivo-slider-controls-numbers .nivo-controlNav a.active {
+	color:#FFF;
+}
+/* 	----------------------
+	DIRECTION NAVIGATION 
+	---------------------- */
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+
+/* 	----------------------
+	THUMBNAIL NAVIGATION 
+	---------------------- */
+.easy-nivo-slider-controls-thumbs {
+	overflow:visible !important;
+	}
+
+.easy-nivo-slider-controls-thumbs .nivo-controlNav {
+	position:absolute;
+	bottom:0!important; /* Put the nav below the slider */
+	left:0;
+}
+
+.easy-nivo-slider-controls-thumbs .nivo-controlNav a { 
+	width:60px !important; 
+	height:60px !important; 
+	margin-right:4px !important;
+	float:left;
+	display:block;
+	opacity:0.7; 
+	}
+.easy-nivo-slider-controls-thumbs .nivo-controlNav a.active {
+	opacity:1 !important;  
+	}
+.easy-nivo-slider-controls-thumbs .nivo-controlNav a:hover { 
+	opacity:1 !important; 
+}
+.easy-nivo-slider-controls-thumbs .nivo-controlNav img {
+	margin-right:10px;
+	border:1px solid #ccc;
+	width:60px;
+	height:60px;
+}
+.easy-nivo-slider-controls-thumbs .nivo-controlNav img:hover {
+}
+
+.easy-nivo-slider-controls-thumbs .nivo-controlNav a.active img { 
+	border:1px solid #000;
+}

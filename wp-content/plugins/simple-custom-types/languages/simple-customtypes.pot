@@ -1,0 +1,699 @@
+# Copyright (C) 2010 Simple Custom Post Types
+# This file is distributed under the same license as the Simple Custom Post Types package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Custom Post Types 3.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/simple-custom-types\n"
+"POT-Creation-Date: 2011-02-24 14:28:12+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: inc/class.admin.php:22
+msgctxt "post type general name"
+msgid "Entries"
+msgstr ""
+
+#: inc/class.admin.php:23
+msgctxt "post type singular name"
+msgid "Entry"
+msgstr ""
+
+#: inc/class.admin.php:24
+msgctxt "post"
+msgid "Add New"
+msgstr ""
+
+#: inc/class.admin.php:25 inc/class.admin.php:665
+msgid "Add New Entry"
+msgstr ""
+
+#: inc/class.admin.php:26 inc/class.admin.php:671
+msgid "Edit Entry"
+msgstr ""
+
+#: inc/class.admin.php:27 inc/class.admin.php:677
+msgid "New Entry"
+msgstr ""
+
+#: inc/class.admin.php:28 inc/class.admin.php:683
+msgid "View Entry"
+msgstr ""
+
+#: inc/class.admin.php:29 inc/class.admin.php:689
+msgid "Search Entries"
+msgstr ""
+
+#: inc/class.admin.php:30 inc/class.admin.php:695
+msgid "No entries found"
+msgstr ""
+
+#: inc/class.admin.php:31 inc/class.admin.php:701
+msgid "No entries found in Trash"
+msgstr ""
+
+#: inc/class.admin.php:32 inc/class.admin.php:707
+msgid "Parent Entry:"
+msgstr ""
+
+#: inc/class.admin.php:118
+msgid "Custom Post Types"
+msgstr ""
+
+#: inc/class.admin.php:132
+msgid "Custom type : %s"
+msgstr ""
+
+#: inc/class.admin.php:155
+msgid "Custom post type and this content deleted with success !"
+msgstr ""
+
+#: inc/class.admin.php:158
+msgid "Custom post type deleted with success !"
+msgstr ""
+
+#: inc/class.admin.php:161
+msgid "Custom type added with success !"
+msgstr ""
+
+#: inc/class.admin.php:164
+msgid "Custom type updated with success !"
+msgstr ""
+
+#: inc/class.admin.php:180
+msgid "Simple Customs Types"
+msgstr ""
+
+#: inc/class.admin.php:183
+msgid ""
+"<strong>Warning:</strong> Flush & Delete a custom type will delete post type "
+"and also all content and all relations related."
+msgstr ""
+
+#: inc/class.admin.php:190 inc/class.admin.php:199
+msgid "Label"
+msgstr ""
+
+#: inc/class.admin.php:191 inc/class.admin.php:200 inc/class.admin.php:557
+msgid "Name"
+msgstr ""
+
+#: inc/class.admin.php:192 inc/class.admin.php:201
+msgid "Hierarchical"
+msgstr ""
+
+#: inc/class.admin.php:193 inc/class.admin.php:202
+msgid "Rewrite"
+msgstr ""
+
+#: inc/class.admin.php:194 inc/class.admin.php:203
+msgid "Description"
+msgstr ""
+
+#: inc/class.admin.php:210
+msgid "No custom type."
+msgstr ""
+
+#: inc/class.admin.php:224
+msgid "Edit"
+msgstr ""
+
+#: inc/class.admin.php:225
+msgid ""
+"You are about to delete this custom post type '%s'\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: inc/class.admin.php:225
+msgid "Delete"
+msgstr ""
+
+#: inc/class.admin.php:226
+msgid ""
+"You are about to delete and flush this custom post type '%s' and all this "
+"content.\n"
+"  'Cancel' to stop, 'OK' to delete."
+msgstr ""
+
+#: inc/class.admin.php:226
+msgid "Flush & Delete"
+msgstr ""
+
+#: inc/class.admin.php:230 inc/class.admin.php:231
+msgid "Yes"
+msgstr ""
+
+#: inc/class.admin.php:230 inc/class.admin.php:231
+msgid "No"
+msgstr ""
+
+#: inc/class.admin.php:241
+msgid "Add a new custom type"
+msgstr ""
+
+#: inc/class.admin.php:262
+msgid "Add custom type"
+msgstr ""
+
+#: inc/class.admin.php:282
+msgid "Update custom type"
+msgstr ""
+
+#: inc/class.admin.php:322
+msgid "Rewrite URL"
+msgstr ""
+
+#: inc/class.admin.php:325
+msgid "Query var"
+msgstr ""
+
+#: inc/class.admin.php:328
+msgid ""
+"<strong>Query var</strong> is used for build URLs of object. If this value "
+"is empty, Simple Custom Post Types will use a slug from label for build URL."
+msgstr ""
+
+#: inc/class.admin.php:331
+msgid "Has archive view ?"
+msgstr ""
+
+#: inc/class.admin.php:340
+msgid ""
+"<strong>Query var for archives</strong> is used for build URLs for lisiting "
+"objects of a custom types. Also archives for post..."
+msgstr ""
+
+#: inc/class.admin.php:343
+msgid "Rewrite ?"
+msgstr ""
+
+#: inc/class.admin.php:352
+msgid "Rewriting allow to build nice URL for custom post type."
+msgstr ""
+
+#: inc/class.admin.php:359
+msgid "Administration"
+msgstr ""
+
+#: inc/class.admin.php:362
+msgid "Display on admin ?"
+msgstr ""
+
+#: inc/class.admin.php:370
+msgid "Whether to generate a default UI for managing this post type."
+msgstr ""
+
+#: inc/class.admin.php:374
+msgid "Admin description"
+msgstr ""
+
+#: inc/class.admin.php:379
+msgid "Show in admin menu ?"
+msgstr ""
+
+#: inc/class.admin.php:387
+msgid ""
+"Where to show the post type in the admin menu. True for a top level menu, "
+"false for no menu, or can be a top level page like 'tools.php' or 'edit.php?"
+"post_type=page'. Show UI must be true."
+msgstr ""
+
+#: inc/class.admin.php:391
+msgid "Show in nav menus ?"
+msgstr ""
+
+#: inc/class.admin.php:399
+msgid ""
+"Put this setting to true for display this custom type on navigation menu "
+"tools."
+msgstr ""
+
+#: inc/class.admin.php:403
+msgid "Can export ?"
+msgstr ""
+
+#: inc/class.admin.php:411
+msgid ""
+"Put this setting to true for export this post type items on WordPress "
+"eXtended RSS (or WXR)"
+msgstr ""
+
+#: inc/class.admin.php:415
+msgid "Position on menu"
+msgstr ""
+
+#: inc/class.admin.php:417
+msgid ""
+"This field allow to order the position of the custom type menu on admin. By "
+"the defaut, the value are upper than 25."
+msgstr ""
+
+#: inc/class.admin.php:421
+msgid "Menu Icon"
+msgstr ""
+
+#: inc/class.admin.php:423
+msgid ""
+"You can specifiy a custom icon with this field, just put this URI. (use the "
+"media manager for upload image)"
+msgstr ""
+
+#: inc/class.admin.php:431
+msgid "Permissions"
+msgstr ""
+
+#: inc/class.admin.php:434
+msgid "Use the internal default capabilities logic ?"
+msgstr ""
+
+#: inc/class.admin.php:442
+msgid ""
+"Whether to use the internal default meta capability handling. Defaults to "
+"true."
+msgstr ""
+
+#: inc/class.admin.php:446
+msgid "Required capability"
+msgstr ""
+
+#: inc/class.admin.php:454
+msgid ""
+"The string to use to build the read, edit, and delete capabilities. Defaults "
+"to 'post'."
+msgstr ""
+
+#: inc/class.admin.php:459
+msgid "Custom capability type"
+msgstr ""
+
+#: inc/class.admin.php:461
+msgid ""
+"The string to use to build the read, edit, and delete capabilities. Defaults "
+"to 'post'. May be passed as an array to allow for alternative plurals when "
+"using this argument as a base to construct the capabilities, separe the two "
+"values with a comma, e.g. story,stories."
+msgstr ""
+
+#: inc/class.admin.php:464
+msgid "Show very advanced capabilities settings"
+msgstr ""
+
+#: inc/class.admin.php:468
+msgid "Edit entry"
+msgstr ""
+
+#: inc/class.admin.php:470
+msgid ""
+"The meta capability that controls editing a particular object of this post "
+"type. Defaults to 'edit_post'."
+msgstr ""
+
+#: inc/class.admin.php:473
+msgid "Ready entry"
+msgstr ""
+
+#: inc/class.admin.php:475
+msgid ""
+"The meta capability that controls reading a particular object of this post "
+"type. Defaults to 'read_post'."
+msgstr ""
+
+#: inc/class.admin.php:478
+msgid "Edit entries"
+msgstr ""
+
+#: inc/class.admin.php:480
+msgid ""
+"The capability that controls editing objects of this post type as a class. "
+"Defaults to 'edit_posts'."
+msgstr ""
+
+#: inc/class.admin.php:483
+msgid "Delete entry"
+msgstr ""
+
+#: inc/class.admin.php:485
+msgid ""
+"The meta capability that controls deleting a particular object of this post "
+"type. Defaults to 'delete_post'."
+msgstr ""
+
+#: inc/class.admin.php:488
+msgid "Edit others entries"
+msgstr ""
+
+#: inc/class.admin.php:490
+msgid ""
+"The capability that controls editing objects of this post type that are "
+"owned by other users. Defaults to 'edit_others_posts'."
+msgstr ""
+
+#: inc/class.admin.php:493
+msgid "Publish entries"
+msgstr ""
+
+#: inc/class.admin.php:495
+msgid ""
+"The capability that controls publishing objects of this post type. Defaults "
+"to 'publish_posts'"
+msgstr ""
+
+#: inc/class.admin.php:498
+msgid "Read private entries"
+msgstr ""
+
+#: inc/class.admin.php:500
+msgid ""
+"The capability that controls reading private posts. Defaults to "
+"'read_private_posts'."
+msgstr ""
+
+#: inc/class.admin.php:504
+msgid ""
+"The follow capabiilites is required when internal default logic settings is "
+"to true"
+msgstr ""
+
+#: inc/class.admin.php:507
+msgid "Read"
+msgstr ""
+
+#: inc/class.admin.php:509
+msgid ""
+"Controls whether objects of this post type can be read. Defaults to 'read'."
+msgstr ""
+
+#: inc/class.admin.php:512
+msgid "Delete posts"
+msgstr ""
+
+#: inc/class.admin.php:514
+msgid ""
+"Controls whether objects of this post type can be deleted. Defaults to "
+"'delete_posts'."
+msgstr ""
+
+#: inc/class.admin.php:517
+msgid "Delete private posts"
+msgstr ""
+
+#: inc/class.admin.php:519
+msgid ""
+"Controls whether private objects can be deleted. Defaults to "
+"'delete_private_posts'."
+msgstr ""
+
+#: inc/class.admin.php:522
+msgid "Delete published posts"
+msgstr ""
+
+#: inc/class.admin.php:524
+msgid ""
+"Controls whether published objects can be deleted. Defaults to "
+"'delete_published_posts'."
+msgstr ""
+
+#: inc/class.admin.php:527
+msgid "Delete other posts"
+msgstr ""
+
+#: inc/class.admin.php:529
+msgid ""
+"Controls whether objects owned by other users can be can be deleted. If the "
+"post type does not support an author, then this will behave like "
+"delete_posts. Defaults to 'delete_others_posts'."
+msgstr ""
+
+#: inc/class.admin.php:532
+msgid "Edit private posts"
+msgstr ""
+
+#: inc/class.admin.php:534
+msgid ""
+"Controls whether private objects can be edited. Defaults to "
+"'edit_private_posts'."
+msgstr ""
+
+#: inc/class.admin.php:537
+msgid "Edit published posts"
+msgstr ""
+
+#: inc/class.admin.php:539
+msgid ""
+"Controls whether published objects can be deleted.. Defaults to "
+"'edit_published_posts'."
+msgstr ""
+
+#: inc/class.admin.php:552
+msgid "Main information"
+msgstr ""
+
+#: inc/class.admin.php:560
+msgid ""
+"<strong>Name</strong> is used on DB. (All lowercase and no weird characters)"
+msgstr ""
+
+#: inc/class.admin.php:564
+msgid "Hierarchical ?"
+msgstr ""
+
+#: inc/class.admin.php:573
+msgid ""
+"Default <strong>hierarchical</strong> in WordPress are Pages. Default posts "
+"WP aren't hierarchical."
+msgstr ""
+
+#: inc/class.admin.php:577
+msgid "Supports features ?"
+msgstr ""
+
+#: inc/class.admin.php:584
+msgid ""
+"Default supports <strong>features</strong> from WordPress. You can use "
+"custom fields for extend easily your custom post type."
+msgstr ""
+
+#: inc/class.admin.php:588
+msgid "Taxonomies"
+msgstr ""
+
+#: inc/class.admin.php:595
+msgid ""
+"You can add this object type to an builtin or custom taxonomy. (compatible "
+"Simple Taxonomy)"
+msgstr ""
+
+#: inc/class.admin.php:605
+msgid "Visibility"
+msgstr ""
+
+#: inc/class.admin.php:610
+msgid "Public queryable ?"
+msgstr ""
+
+#: inc/class.admin.php:619
+msgid "Whether post_type queries can be performed from the front page."
+msgstr ""
+
+#: inc/class.admin.php:623
+msgid "Exclude from search ?"
+msgstr ""
+
+#: inc/class.admin.php:632
+msgid "Whether to exclude objects with this post type from search results."
+msgstr ""
+
+#: inc/class.admin.php:642
+msgid "Translations Wording"
+msgstr ""
+
+#: inc/class.admin.php:647
+msgid "Entries"
+msgstr ""
+
+#: inc/class.admin.php:653
+msgid "Entry"
+msgstr ""
+
+#: inc/class.admin.php:659
+msgid "Add New"
+msgstr ""
+
+#: inc/class.admin.php:737
+msgid "You cannot edit the Simple Custom Types options."
+msgstr ""
+
+#: inc/class.admin.php:759
+msgid "Tcheater ? You try to edit a custom type without name. Impossible !"
+msgstr ""
+
+#: inc/class.admin.php:775 inc/class.admin.php:828
+msgid ""
+"Tcheater ? You try to add a custom type with a name already used by an "
+"another custom type."
+msgstr ""
+
+#: inc/class.admin.php:783
+msgid ""
+"Impossible to add your custom type... You must enter a custom type name."
+msgstr ""
+
+#: inc/class.admin.php:849
+msgid ""
+"Tcheater ? You try to edit a custom type with a name different as original. "
+"Simple Custom Fields dont allow update the name. Propose a patch ;)"
+msgstr ""
+
+#: inc/class.admin.php:871
+msgid "Tcheater ? You try to delete a custom type who not exist..."
+msgstr ""
+
+#: inc/class.admin.php:918
+msgid "True"
+msgstr ""
+
+#: inc/class.admin.php:918
+msgid "False"
+msgstr ""
+
+#: inc/class.admin.php:957
+msgid "Title"
+msgstr ""
+
+#: inc/class.admin.php:958
+msgid "Visual editor"
+msgstr ""
+
+#: inc/class.admin.php:959
+msgid "Author"
+msgstr ""
+
+#: inc/class.admin.php:960
+msgid "Thumbnail for content"
+msgstr ""
+
+#: inc/class.admin.php:961
+msgid "Excerpt"
+msgstr ""
+
+#: inc/class.admin.php:962
+msgid "Trackbacks"
+msgstr ""
+
+#: inc/class.admin.php:963
+msgid "Custom fields"
+msgstr ""
+
+#: inc/class.admin.php:964
+msgid "Comments"
+msgstr ""
+
+#: inc/class.admin.php:965
+msgid "Revisions"
+msgstr ""
+
+#: inc/class.admin.php:966
+msgid "Post formats <em>(new in 3.1)</em>"
+msgstr ""
+
+#: inc/class.admin.php:967
+msgid "Attributes pages (useful only for objects with hierarchy)"
+msgstr ""
+
+#: inc/class.widget.php:11
+msgid "The most recent objects on your blog"
+msgstr ""
+
+#: inc/class.widget.php:14
+msgid "Recent Objects"
+msgstr ""
+
+#: inc/class.widget.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/class.widget.php:109
+msgid "Title:"
+msgstr ""
+
+#: inc/class.widget.php:113
+msgid "Post type:"
+msgstr ""
+
+#: inc/class.widget.php:123
+msgid "Number of objects to show:"
+msgstr ""
+
+#: inc/class.widget.php:125
+msgid "(at most 15)"
+msgstr ""
+
+#: inc/class.admin.conversion.php:33
+msgid "Post type conversion"
+msgstr ""
+
+#: inc/class.admin.conversion.php:70
+msgid "Custom type conversion"
+msgstr ""
+
+#: inc/class.admin.conversion.php:71
+msgid ""
+"This page allows to convert the object at present used as post/page in "
+"another custom type. If you merge a hierarchy object on non hierarchy custom "
+"type, the post parent value will be reset."
+msgstr ""
+
+#: inc/class.admin.conversion.php:79
+msgid "Post title"
+msgstr ""
+
+#: inc/class.admin.conversion.php:80
+msgid "New post type"
+msgstr ""
+
+#: inc/class.admin.conversion.php:93
+msgid "No entries for this custom type."
+msgstr ""
+
+#: inc/class.admin.conversion.php:112
+msgid "Use an another custom type"
+msgstr ""
+
+#: inc/class.admin.conversion.php:121
+msgid "Convert custom type"
+msgstr ""
+
+#: inc/class.admin.conversion.php:128
+msgid "Choose a custom type"
+msgstr ""
+
+#: inc/class.admin.conversion.php:140
+msgid "Load objects for this post type"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Custom Post Types"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://redmine.beapi.fr/projects/show/simple-custom-type"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WordPress 3.1 and up allow to manage new custom post type, this plugin makes "
+"it even simpler, removing the need for you to write <em>any</em> code. "
+"Excerpt update your theme ! Adds friendly permalink support, template files, "
+"and a conditional for public, non-hierarchical custom post types."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Amaury Balmer"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.beapi.fr"
+msgstr ""

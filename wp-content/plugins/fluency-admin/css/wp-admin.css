@@ -1,0 +1,320 @@
+/* -------------------------------------- */
+/* ----  Make everything sans-serif  ---- */
+/* -------------------------------------- */
+
+/* ---- wp-admin.css ------ */ .quicktags,.search,#wphead h1,.widefat th,.tablenav .displaying-num,.inline-edit-row fieldset span.title,.inline-edit-row fieldset span.checkbox-title,#your-profile legend,.pressthis a,#poststuff h3,.metabox-holder h3,.tool-box .title {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/* ---- widgets.css ------- */ div.sidebar-name h3 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/* ---- press-this.css ---- */ body,.category-add input,.category-add select,.submit input,.button,.button-primary,.button-secondary,.button-highlighted,#postcustomstuff .submit input {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/* ---- nav-menu.css ------ */ #menu-management .nav-tab {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/* ---- media.css --------- */ .media-upload-form label.form-help,td.help,#media-upload p.help,#media-upload label.help,#gallery-settings .title,h3.media-title,h4.media-sub-title {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+/* ---- dashboard.css ----- */ #dashboard-widgets h4,#dashboard_right_now td.b,a.rsswidget,#dashboard_plugins h5 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+/* ----------------- */
+/* ----  Styles  ---- */
+/* ----------------- */
+
+/* General */
+a {
+	color: #06C;
+}
+h3 {
+	margin: 2em 0 0.5em;
+}
+
+/* ---- Head ---- */
+#wphead {
+	margin-left: 0;
+}
+#screen-options-link-wrap, #contextual-help-link-wrap {
+	border: 0 none;
+}
+
+/* ---- Postbox/Metabox headers ---- */
+#poststuff h3, .metabox-holder h3 {
+	font-size: 12px;
+	font-weight: bold;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+.postbox .hndle span {
+	padding: 4px 0;
+}
+.postbox .handlediv {
+	height: 24px;
+}
+.meta-box-sortables .postbox:hover .handlediv {
+	background-position: 6px 4px;
+}
+#dashboard-widgets h3 .postbox-title-action {
+	text-transform: none;
+	top: 5px;
+}
+
+/* ---- Admin Menu ---- */
+#adminmenu {
+	position: fixed;
+}
+#adminmenu .wp-submenu.sub-open, #adminmenu .wp-submenu-wrap {
+	width: 145px;
+}
+#adminmenu li.wp-menu-open {
+	border-width: 0;
+}
+.fluency-hover-menus #adminmenu .wp-submenu ul {
+	padding:5px 0;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+#adminmenu .wp-submenu ul li a {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+#adminmenu .wp-submenu ul li.wp-first-item a {
+	border-top-width: 0;
+/*	-moz-border-radius:4px 4px 0 0;*/
+}
+#adminmenu .wp-submenu ul li:last-child a {
+	border-bottom-width: 0;
+/*	-moz-border-radius:0 0 4px 4px;*/
+}
+#adminmenu a.menu-top {
+	font-weight: normal;
+}
+#adminmenu .wp-submenu.fly-out, .folded #adminmenu .wp-submenu.fly-out {
+	display: block;
+	left: 100%;
+	position: absolute;
+	top: -5px;
+	padding: 0;
+	z-index: 999;
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+	margin-left:9px;
+}
+.folded #adminmenu .wp-submenu.fly-out {
+	margin-left:0;
+}
+.js.folded #adminmenu li.menu-top {
+	height:30px;
+}
+.js.folded #adminmenu .wp-submenu {
+	left:41px;
+}
+#adminmenu li.wp-has-submenu:hover .wp-menu-arrow, #adminmenu li.wp-has-submenu.hovered .wp-menu-arrow {
+	cursor: auto;
+	display: block;
+	position: absolute;
+	right: -9px;
+	top: 0;
+	z-index: 25;
+}
+#adminmenu .wp-menu-arrow div {
+	width: 16px;
+}
+#collapse-button {
+	margin: 9px 6px;
+}
+.js.folded #adminmenu div.wp-submenu-head {
+	display:none;
+}
+.js.folded #adminmenu .wp-submenu.sub-open {
+	padding: 0;
+}
+.js.folded #adminmenu .wp-submenu-wrap {
+	margin-top:0;
+}
+#adminmenu .awaiting-mod, #adminmenu span.update-plugins, #sidemenu li a span.update-plugins {
+	margin-top: 0;
+	line-height: 15px;
+}
+#adminmenu li .awaiting-mod span, #adminmenu li span.update-plugins span, #sidemenu li a span.update-plugins span {
+	padding: 0 5px;
+}
+body.admin_menu_hidden #adminmenuwrap, body.admin_menu_hidden #adminmenuback {
+	display: none;
+}
+body.admin_menu_hidden #wpcontent, body.admin_menu_hidden #footer {
+	margin-left: 15px;
+}
+#adminmenu .wp-menu-toggle {
+	line-height:27px;
+}
+#adminmenu .wp-submenu-wrap ul li a u {
+	float:right;
+	margin-right:5px;
+}
+
+
+/* --- Dashboard --- */
+.dashboard-comment-wrap {
+	padding-bottom: 4px;
+}
+#the-comment-list .comment-item .avatar {
+	height: 40px;
+	width: 40px;
+}
+
+/* Tables */
+.widefat th {
+	line-height: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+th.sortable a, th.sorted a {
+	padding: 5px 7px;
+}
+.sorting-indicator {
+	margin-top: 2px;
+}
+th.sorted .sorting-indicator {
+	opacity: 1;
+}
+.widefat .check-column {
+	padding: 0;
+	vertical-align: middle;
+}
+.widefat tbody th.check-column {
+	padding:7px 0;
+}
+.widefat tbody#the-comment-list th.check-column {
+	vertical-align: top;
+}
+.widefat td {
+	vertical-align: middle;
+	padding: 7px; /*2px 7px 2px;*/
+}
+body.import-php .widefat tr:last-child td {
+	border-bottom: 0 none;
+}
+td.post-title strong, td.plugin-title strong, td.column-username strong {
+	margin-bottom: 0;
+	display: inline;
+}
+td.username.column-username br {
+	display: none;
+}
+.column-author img, .column-username img {
+	margin-right: 10px;
+	margin-top: 1px;
+	width: 16px;
+	height: 16px;
+}
+.fixed td.column-date {
+	line-height: 14px;
+	font-size: 11px;
+}
+.fixed td.column-date abbr {
+	font-size: 11px;
+}
+.post-com-count {
+	background: none;
+	height: auto;
+	line-height: 16px;
+	padding: 0;
+	font-size: 10px;
+}
+.post-com-count span {
+	height: auto;
+	line-height: 16px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+#the-comment-list td.column-author {
+	font-size: 11px;
+}
+#the-comment-list td.column-author strong {
+	font-size: 12px;
+}
+
+/* Row Actions */
+.row-actions {
+	padding-top: 0;
+	font-size: 11px;
+	display: block;
+	float: right;
+}
+#the-comment-list .comment-item p.row-actions {
+	margin-top: 12px;
+
+}
+.row-actions span {
+	color: transparent;
+	margin-left: -5px;
+}
+.row-actions span a {
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px 6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.row-actions span a:hover {
+	border: 0 none;
+	padding: 4px 7px;
+}
+
+/* SubSubSub */
+.subsubsub li a, .subsubsub li a.current {
+	border-style: solid;
+	border-width: 1px;
+	padding: 3px 6px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.subsubsub li a:hover {
+	border: 0 none;
+	padding: 4px 7px;
+}
+.subsubsub li a .count {
+	padding: 2px 4px;
+	margin: 0 -5px 0 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+#dashboard_recent_comments .subsubsub {
+	border-top-width: 1px;
+	border-top-style: solid;
+	margin: 0 -10px -10px -10px;
+	padding: 5px 10px;
+	-moz-border-radius: 0 0 3px 3px;
+	-webkit-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+}
+
+/* ---- Buttons ---- */
+.submit input, .button, input.button, .button-primary, input.button-primary, .button-secondary, input.button-secondary, .button-highlighted, input.button-highlighted, #postcustomstuff .submit input {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/* ---- Forms ---- */
+table.form-table th {
+	font-weight: bold;
+}
+div.form-field label {
+	font-weight: bold;
+	display: inline;
+	position: relative;
+	float: left;
+	width: 20%;
+}
+div.form-field input {
+	width: 75%;
+}
+div.form-wrap p.submit {
+	padding: 8px;
+}
+table.form-table td .description {
+	font-style: italic;
+}
